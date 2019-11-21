@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	 <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+	<style>
+		*
+		{
+			font-family: 'Noto Serif', serif;
+			margin: 0;
+			padding: 0;
+
+		}
+		section
+		{
+width: 90%;margin: auto;margin-top: 90px;
+		}
+		hr
+		{
+			margin-bottom: 30px;
+			border:2px solid pink;
+		}
+		h2
+		{
+			color: red;
+		}
+		.effect1
+		{
+			opacity: 1;
+		}
+		.effect1 .animated
+		{
+			opacity: 1;
+		}
+	
+	</style>
+</head>
+<body>
+ <nav class=" lighten-2">
+    <div class="nav-wrapper" style="margin-left: 15px; margin-right: 10px;">
+      <a href="#!" class="brand-logo">RanchiWebCooking</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#">SERVICES</a></li>
+        <li><a href="#gallery" class="scrollspy">GALLERY</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li>
+        	<a href="#">CONTACT</a>
+        </li>
+        <li>
+        	  <a class="waves-effect red waves-light btn modal-trigger" href="#modal1">Sign-Up</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="index.html">HOME</a></li>
+        <li><a href="#">SERVICES</a></li>
+        <li><a href="#gallery" class="scrollspy">GALLERY</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li>
+        <a href="mobile.html">CONTACT</a>
+        </li>
+          <li>
+        	  <a class="waves-effect red waves-light btn modal-trigger" href="#modal1">Sign-Up</a>
+        </li>
+  </ul>
+
+  <!--carasol-->
+
+   <div class="carousel carousel-slider">
+    <a class="carousel-item" href="#one!"><img src="1.jpg"></a>
+
+    <div class="carousel-fixed-item center">
+    	<h3 class="white-text">Ranchi-WEB-Cooking.</h3>
+    	<h5>BY:-(RanchiWebCooking)</h5>
+    	<a class="waves-effect waves-light btn" href="about.html">More-Info <i class="material-icons right">send</i></a>
+    </div>
+    <a class="carousel-item" href="#two!"><img src="4.jpg"></a>
+    <div class="carousel-fixed-item center">
+    	<h3 class="white-text">Ranchi-WEB-Cooking.</h3>
+    	<h5 class="white-text">BY:-(RanchiWebCooking)</h5>
+    	<a class="waves-effect waves-light btn" href="about.html">More-Info <i class="material-icons right">send</i></a>
+    </div>
+    <a class="carousel-item" href="#three!"><img src="3.jpg"></a>
+    <div class="carousel-fixed-item center">
+    	<h3 class="white-text">Ranchi-WEB-Cooking.</h3>
+    	<h5 class="white-text">BY:-(RanchiWebCooking)</h5>
+    	<a class="waves-effect waves-light btn" href="about.html">More-Info <i class="material-icons right">send</i></a>
+    </div>
+    <a class="carousel-item" href="#three!"><img src="4.jpg"></a>
+    <div class="carousel-fixed-item center">
+    	<h3 class="white-text">Ranchi-WEB-Cooking.</h3>
+    	<h5 class="white-text">BY:-(RanchiWebCooking)</h5>
+    	<a class="waves-effect waves-light btn" href="about.html">More-Info <i class="material-icons right">send</i></a>
+    </div>
+    
+  </div>
+
+
+  <!--end carasol-->
+
+  <!--floating-->
+  <div class="fixed-action-btn">
+  <a class="btn-floating btn-large red">
+    <i class="large material-icons">mode_edit</i>
+  </a>
+  <ul>
+    <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+    <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+    <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+    <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+  </ul>
+</div>
+    <!--endfloat-->  
+
+
+    <!--about us-->
+<section>
+	<h2 class="center-align">About-Me</h2>
+
+<div class="row" >
+	<div class="col s4 m4 l4 offset-l4 offset-m4 offset-s4 "><hr>
+		
+	</div>
+	<div class="row">
+		<div class="col m6 s12 l6 effect1" >
+			<img src="image1.jpg" class="responsive-img" style="margin-right: 50px;">
+		</div>
+		<div class="col m6 s12 l6 effect2">
+			<h4>Who AM I..?</h4>
+			<br>
+			<br>
+			<p style="font-family: 'Acme', sans-serif;margin-bottom: 30px;">Hello my name is "TUSHAR ANAND" student of Marwari college Ranchi.
+			Appearing in 3rd year.Doing Hnrs on Bachelor of computer Application.
+		I made a site of making websites if anyone want to statr their business of anything
+	to the online World I will help you Form doing this by simply designing Your web-site..</p>
+	<a class="waves-effect waves-light red white-text lighten-1 btn" href="#">More-Info <i class="material-icons right">send</i></a>
+		</div>
+	</div>
+	
+</div>
+
+</section>
+    <!--end about-->
+    <!--our services-->
+<section>
+	<h2 class="center-align">Services-Provided</h2>
+
+<div class="row">
+	<div class="col s6 m4 l6 offset-l3 offset-m4 offset-s3"><hr>
+		
+	</div>
+</section>
+<!--cards-->
+<div class="row">
+<div class="col m4 s12 l4">
+
+  <div class="card  hoverable">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="2.jpg" class="responsive-img">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">WEB-designer<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">CLICK HEAR</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Web_designer<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+  </div>
+	</div>	
+
+<div class="col m4 s12 l4">
+
+  <div class="card  hoverable">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="2.jpg" class="responsive-img">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">WEB-designer<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">CLICK HEAR</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Web_designer<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+  </div>
+	</div>	
+
+<div class="col m4 s12 l4">
+
+  <div class="card  hoverable">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="2.jpg" class="responsive-img">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">WEB-designer<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">CLICK HEAR</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Web_designer<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+  </div>
+	</div>	
+</div>
+<!--cards-->
+    <!--end services-->
+<!--gallery-->
+
+
+<section>
+	<h2 class="center-align">My-Gallery</h2>
+
+<div class="row">
+	<div class="col s6 m4 l6 offset-l3 offset-m4 offset-s3"><hr>
+		
+	</div>
+</section>
+
+<!--galleryt images-->
+<div class="row">
+	<div class="col l4 m4 s12">
+		<img src="g10.png" class="responsive-img materialboxed"data-caption="PUBG tournament Website">
+	</div>
+	<div class="col l4 m4 s12">
+		<img src="g3.png" class="responsive-img materialboxed" data-caption="API used Website">
+	</div>
+	<div class="col l4 m4 s12">
+		<img src="g9.png" class="responsive-img materialboxed"data-caption="Animated Bus website">
+	</div>
+	<div class="col l4 m4 s12">
+		<img src="g8.png" class="responsive-img materialboxed"data-caption="Weather Website">
+	</div>
+	<div class="col l4 m4 s12">
+		<img src="g4.png" class="responsive-img materialboxed"data-caption="DAT website">
+	</div>
+	<div class="col l4 m4 s12">
+		<img src="g6.png" class="responsive-img materialboxed"data-caption="Pubg website">
+	</div>
+	<div class="col l4 m4 s12">
+		<img src="g5.png" class="responsive-img materialboxed"data-caption="Music Website">
+	</div>
+	<div class="col l4 m4 s12">
+		<img src="g8.png" class="responsive-img materialboxed"data-caption="Weather Website">
+	</div>
+	<div class="col l4 m4 s12">
+		<img src="g7.png" class="responsive-img materialboxed"data-caption="Chandrayan-2 website">
+	</div>
+</div>
+<!--end images-->
+<!--end gallery-->
+<!--contact us-form-->
+
+<section>
+	<h2 class="center-align">CONTACT-FORM</h2>
+
+<div class="row">
+	<div class="col s6 m4 l6 offset-l3 offset-m4 offset-s3"><hr>
+		
+	</div>
+</section>
+<!--form-->
+<div class="row">
+	<div class="col m6 l6 offset-l3">
+		<div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+   <div class="row">
+        <div class="input-field col s12">
+          <input id="mobile" type="text" class="validate" data-length="10" autocomplete="off">
+          <label for="mobile">Mobile-Number</label>
+        </div>
+      </div>
+   
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate" autocomplete="off">
+          <label for="email">Email</label>
+        </div>
+      </div>
+        <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Comment</label>
+        </div>
+      </div>
+      </div>
+    
+  <form action="#">
+    <div class="file-field input-field">
+      <div class="btn">
+        <span>Upload-File</span>
+        <input type="file">
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text">
+      </div>
+    </div>
+      <button class="btn waves-effect red waves-light" type="submit" name="action" onclick="M.toast({html: 'Please we will contact you soon'})">Submit
+    <i class="material-icons right">send</i>
+  </button>
+
+  </form>
+    </form>
+  </div>
+	</div>
+	
+</div>
+<!--endform-->
+
+<!--end contact us-->
+<!--footer-->
+
+        <footer class="page-footer red lighten-1">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Contact On Tap</h5>
+                <p class="grey-text text-lighten-4">You can Contact me on Email.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">FOLLOW ME ON:-</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Github</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2019 RanchiWebCooking
+            
+            </div>
+          </div>
+        </footer>
+<!--endfooter-->
+<!-- Modal Trigger -->
+
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <center><h4 style="color: red" >Sign-In Form</h4></center>
+     <div class="row">
+	<div class="col m6 l6 offset-l3">
+		<div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+   <div class="row">
+        <div class="input-field col s12">
+          <input id="mobile" type="text" class="validate" data-length="10" autocomplete="off">
+          <label for="mobile">Mobile-Number</label>
+        </div>
+      </div>
+   
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate" autocomplete="off">
+          <label for="email">Email</label>
+        </div>
+      </div>
+        <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Comment</label>
+        </div>
+      </div>
+      </div>
+    
+  <form action="#">
+    <div class="file-field input-field">
+      <div class="btn">
+        <span>Upload-File</span>
+        <input type="file">
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text">
+      </div>
+    </div>
+      <button class="btn waves-effect red waves-light" type="submit" name="action" onclick="M.toast({html: 'Please we will contact you soon'})">Submit
+    <i class="material-icons right">send</i>
+  </button>
+
+  </form>
+    </form>
+  </div>
+	</div>
+	
+</div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
+  <script>
+  	 $(document).ready(function(){
+    $('.sidenav').sidenav();
+
+    $('.carousel.carousel-slider').carousel({
+    fullWidth: true,indicators: true
+         });
+     $(document).ready(function(){
+    $('.fixed-action-btn').floatingActionButton();
+  });
+       $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  }); 
+
+  $(document).ready(function() {
+    $('input#mobile').characterCounter();
+  });
+  $(document).ready(function(){
+    $('.modal').modal();
+  });
+        
+        
+  });
+  </script>	
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
+
+<script>
+
+
+
+$document.ready(function(){
+	$('.effect1').waypoint(function(direction){
+      $('.effect1').addClass('animated flip')
+	},{
+		offset:'100px';
+	})
+});
+
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
